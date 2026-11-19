@@ -3,7 +3,7 @@ always do `git pull` before doing anything to avoid merge conflicts
 ```
 git status
 git diff
-git add .
+git add . # or git add -A # the difference is that, "." only stage changes for your current directory, an "-A" does it for the entire project
 git diff --staged
 git commit -m "your commit message"
 git push
