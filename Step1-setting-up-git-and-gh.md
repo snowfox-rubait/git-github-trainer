@@ -114,6 +114,7 @@ gh auth login -h github.com -p ssh -w -s admin:ssh_signing_key
 Set the global protocol to SSH:
 ```bash
 gh config set git_protocol ssh
+# gh auth setup-git # this command is also used but in this case we won't be needing it.
 ```
 
 *(Optional but recommended)* Force Git to rewrite HTTPS URLs to SSH:
