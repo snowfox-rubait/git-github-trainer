@@ -24,3 +24,10 @@ and that's how you push your repo to github with first commit.
 
 for this to work, you must make first commit, otherwise it won't work.
 
+
+btw if you have a project that is from another account of github, your global git email and username doesn't match with that. you can use this, but it's not recommended way of doing this : 
+
+```
+git config --local user.email <your email>
+git config --local user.name <your username>
+```
