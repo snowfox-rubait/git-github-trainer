@@ -21,6 +21,7 @@ A personal reference for Git and `gh`, organized by **the question you're asking
 | "What should I do, as a habit?" | `13-best-practices.md` |
 | "I got this error message" | `14-troubleshooting.md` |
 | "Just give me the command" | `15-cheatsheet.md` |
+| "Actions, CI/CD, wiki, Projects" | `16-github-actions-ci-wiki-projects.md` |
 
 Hands-on labs live in `practice/` (run them in a throwaway directory; they create their own repos under a temp dir).
 
